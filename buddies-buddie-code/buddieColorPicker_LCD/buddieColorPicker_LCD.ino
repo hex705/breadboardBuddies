@@ -29,7 +29,7 @@ int bluePot = A2;
 void setup() {
   // put your setup code here, to run once:
   	Serial.begin(9600);
-     lcd.init();
+    lcd.init();
     // Print a message to the LCD.
     lcd.print("rgb color picker");
 
